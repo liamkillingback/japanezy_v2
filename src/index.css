@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.backg {
+    background-image: url('./assets/hero6.jpg');
+    background-size: cover;
+}
